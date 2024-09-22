@@ -1,0 +1,24 @@
+{{ $showFooter := default true .Site.Params.showFooter }}
+{{ if $showFooter }}
+    {{ if not .Site.Params.footerContent }}
+    <!--
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    -->
+    {{ end }}
+    
+    {{ with .Site.Params.footerContent }}
+    <p>{{ . | markdownify }}</p>
+    {{ end }}
+
+    <a href='http://www.catb.org/hacker-emblem/'>
+      <img src='http://www.catb.org/hacker-emblem/glider.png' alt='hacker emblem' style="margin-bottom: 2rem;"/>
+    </a>
+{{ end }}
+
+{{ if .Param "math" }}
+{{ partialCached "math.html" . }}
+{{ end }}

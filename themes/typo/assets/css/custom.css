@@ -1,0 +1,44 @@
+/* Place custom css here */
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+p {
+  line-height: 1.75;
+}
+
+#csharp {
+  background: #6f07d6;
+}
+
+#python {
+  background: linear-gradient(to right, #468cc1 50%, #FFDB52 50%);
+  color: black;
+}
+
+#angular {
+  background: #dd0031;
+}
+
+#vue {
+  background: #327959;
+}
+
+#unity {
+  background: #7E7E7E;
+  color: black;
+  font-weight: bold;
+}
+
+#godot {
+  background: #3875AC;
+  color: black;
+  font-family: bold;
+}

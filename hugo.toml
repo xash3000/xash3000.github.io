@@ -1,0 +1,91 @@
+baseURL = 'https://aliabdelrahman.me'
+languageCode = 'en-us'
+title = 'Ali Abdelrahman'
+theme = 'typo'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+# googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "Ali Abdelrahman's personal website"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello, World!'
+homeIntroContent = """
+I'm a computer engineering student interested in various topics including web development,
+game development and computer graphics.
+
+I develop backend systems using <span id="csharp">C#/.NET</span> 
+and <span id="python">Python</span>
+while i design frontend user interfaces with <span id="angular">Angular</span> and <span id="vue">Vue.js</span>.
+I also make games with <span id="unity">Unity</span> and <span id="godot">Godot</span> game engines.
+
+Check out <a href="/resume">my resume</a> or go through some of <a href="/projects">my projects</a>
+
+Email: <a href="mailto:alifaki077@gmail.com" target="_blank">alifaki077@gmail.com</a>
+"""
+
+# Collection to display on home
+# homeCollectionTitle = 'Posts'
+# homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/aliabdelrahman01/"
+
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/xash3000"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/xash3000"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+[[params.menu]]
+name = "resume"
+url = "/resume"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
