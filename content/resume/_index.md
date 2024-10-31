@@ -8,4 +8,4 @@ draft = false
 Download resume <img src="/resume/pdf.svg" alt="pdf icon" style="display: inline; width: 32px; height: 32px"/>
 </a>
 
-<iframe width="900" height="1000" src="/resume/ali_abdelrahman_resume.pdf" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="100%" height="444x" src="/resume/ali_abdelrahman_resume.pdf" frameborder="0" allowfullscreen=""></iframe>
