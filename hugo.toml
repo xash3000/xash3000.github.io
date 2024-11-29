@@ -21,17 +21,17 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello, World!'
 homeIntroContent = """
-I'm a computer engineering student interested in various topics including web development,
-game development and computer graphics.
+I’m a computer engineering student who enjoys building and exploring different areas of technology.
+My main areas of interest are web development, game development, and computer networking.
 
-I develop backend systems using <span id="csharp">C#/.NET</span> 
-and <span id="python">Python</span>
+I work with technologies like <span id="csharp">C#/.NET</span> 
+and <span id="python">Python</span> for building backend systems,
 while i design frontend user interfaces with <span id="angular">Angular</span> and <span id="vue">Vue.js</span>.
 I also make games with <span id="unity">Unity</span> and <span id="godot">Godot</span> game engines.
 
 Check out <a href="/resume">my resume</a> or go through some of <a href="/projects">my projects</a>
 
-Email: <a href="mailto:alifaki077@gmail.com" target="_blank">alifaki077@gmail.com</a>
+Email: <a href="mailto:contact@aliabdelrahman.me" target="_blank">contact@aliabdelrahman.me</a>
 """
 
 # Collection to display on home
