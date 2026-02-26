@@ -22,12 +22,10 @@ hideHeader = false
 homeIntroTitle = 'Hello, World!'
 homeIntroContent = """
 I’m a computer engineering student who enjoys building and exploring different areas of technology.
-My main areas of interest are web development, game development, and computer networking.
+My main areas of interest are backend development and game dev.
 
-I work with technologies like <span id="csharp">C#/.NET</span> 
-and <span id="python">Python</span> for building backend systems,
-while i design frontend user interfaces with <span id="angular">Angular</span> and <span id="vue">Vue.js</span>.
-I also make games with <span id="unity">Unity</span> and <span id="godot">Godot</span> game engines.
+I focus on designing and building backend systems using technologies such as <span id="csharp">C#/.NET</span> and <span id="python">Python</span>.
+I also develop games and interactive experiences using <span id="unity">Unity</span> and <span id="godot">Godot</span> game engines.
 
 Check out <a href="/resume">my resume</a> or go through some of <a href="/projects">my projects</a>
 
