@@ -12,7 +12,7 @@ A Telegram bot that automatically retrieves announcements from Bursa Uludağ Uni
 
 ##### [vsi](https://github.com/xash3000/vsi)
 
-A minimalist turing-complete programming language with an interpreter implemented in Python.
+A minimalist turing-complete programming language with an interpreter implemented in C#.
 ![vsi 2](./images/vsi.png)
 
 ##### [Coobalance](https://xash3000.itch.io/coobalance)
