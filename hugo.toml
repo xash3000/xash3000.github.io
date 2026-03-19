@@ -21,11 +21,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello, World!'
 homeIntroContent = """
-I’m a computer engineering student who enjoys building and exploring different areas of technology.
-My main areas of interest are backend development and game dev.
-
-I focus on designing and building backend systems using technologies such as <span id="csharp">C#/.NET</span> and <span id="python">Python</span>.
-I also develop games and interactive experiences using <span id="unity">Unity</span> and <span id="godot">Godot</span> game engines.
+This is Ali's corner of the internet. A computer engineering student who loves computers and understanding how they work. Building backend systems (C#/.NET) and games (Unity/Godot).
 
 Check out <a href="/resume">my resume</a> or go through some of <a href="/projects">my projects</a>
 
