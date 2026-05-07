@@ -3,6 +3,11 @@ title = 'Personal Projects'
 date = 2024-09-21T23:15:45+03:00
 draft = false
 +++
+##### [SudanDialect.com](https://sudandialect.com)
+
+ A modern Sudanese dialect dictionary built to document and preserve Sudan’s linguistic heritage
+
+![buu duyuru bot](./images/sudandialect.com.png)
 
 ##### [BUÜ Duyuru Bot](https://github.com/xash3000/buu_duyuru_bot)
 
