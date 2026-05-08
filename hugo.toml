@@ -21,7 +21,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello, World!'
 homeIntroContent = """
-This is Ali's corner of the internet. A computer engineering student who loves computers and understanding how they work. Building backend systems (C#/.NET) and games (Unity/Godot).
+This is Ali's corner of the internet. A software engineer who genuinely enjoys understanding how systems work under the hood. I focus on building backend systems with C# and ASP.NET. In my spare time i develop videos games with Unity and Godot.
 
 Check out <a href="/resume">my resume</a> or go through some of <a href="/projects">my projects</a>
 
